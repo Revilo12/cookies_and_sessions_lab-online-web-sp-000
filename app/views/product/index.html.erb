@@ -1,7 +1,7 @@
 <%= cart.each do |item| %>
   <%= item %>
 <% end %>
-<%= form_tag('product/add') do %>
+<%= form_tag('products/add') do %>
   <%= number_field_tag 'product'%>
   <%= submit_tag 'add to cart' %>
 <% end %>
