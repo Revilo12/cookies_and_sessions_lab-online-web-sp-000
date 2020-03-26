@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
-  get 'product/index'
+  get 'products/index'
 
-  post 'product/add'
+  post 'products/add'
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   get '/', to: 'product#index'
